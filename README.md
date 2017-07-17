@@ -21,7 +21,7 @@ table.
     mtcars %>% tabyl(mpg) # percentage (really proportion) of cars with 'x' mpg.
     
      > mtcars %>% tabyl(mpg)
-    mpg n percent
+        mpg n percent
     1  10.4 2 0.06250
     2  13.3 1 0.03125
     3  14.3 1 0.03125
@@ -41,7 +41,7 @@ However, take note that there's no change in the results when you try to group t
     mtcars %>% group_by(cyl) %>% tabyl(mpg) # This yields the same results as the above example.
     
     > mtcars %>% group_by(cyl) %>% tabyl(mpg)
-     mpg n percent
+        mpg n percent
     1  10.4 2 0.06250
     2  13.3 1 0.03125
     3  14.3 1 0.03125
