@@ -1,4 +1,4 @@
-# Piping with Recodes and Frequency Talbes in R
+# Piping with Recodes and Frequency Tables in R
 
 ## Recoding with recode(), mutate(), and '%>%'
 
