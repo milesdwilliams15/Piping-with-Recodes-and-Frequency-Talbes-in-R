@@ -56,7 +56,7 @@ However, take note that there's no change in the results when you try to group t
     12 18.1 1 0.03125
     ...
 
-This is a problem if you want to understand how frequencies differ by certain categories (in the above example, how gas milage frequencies differ by the number of cyclinders a car has). 
+This is a problem if you want to understand how frequencies differ by certain categories (in the above example, how gas mileage frequencies differ by the number of cyclinders a car has). 
 
 This problem can be solved, however, by simply lifting the relevant count() and mutate() commands applied 
 by the tabyl() function and by then using them directly (in the following order!):
